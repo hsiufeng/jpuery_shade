@@ -1,0 +1,42 @@
+#abgne-block-20120527 {
+	width: 533px;	/* 圖片的寬 */
+	height: 300px;	/* 圖片的高 */
+	overflow: hidden;
+}
+#abgne-block-20120527 a {
+	position: absolute;
+	top: 0; 
+	left: 0;
+}
+#abgne-block-20120527 a img {
+	border: none;
+	height: 300px;
+}
+ 
+/* 以下是針對選單按鈕設定 */
+#abgne-block-20120527 .abgne-controls {
+	list-style: none; 
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 30px;
+	bottom: 40px;
+	height: 20px;
+}
+#abgne-block-20120527 .abgne-controls li {
+	float: left;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 2px;
+	color: #0cf;
+	background-color: #fff;
+}
+#abgne-block-20120527 .abgne-controls li.current { 
+	color: #fff;
+	background-color: #0cf;
+}
